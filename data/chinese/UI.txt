@@ -43,8 +43,7 @@
 ;#####################################################
 
 ;## these names will be shown in a tooltip when hovering over the "credits" label	;## the tooltip is segmented into smaller boxes
-		translator			=	"lailloken"
-		translator			=	"CNyezi (Chinese Simplified)"			;## you can add additional <contributor> lines, and each value will have its own box
+		translator			=	"lailloken"			;## you can add additional <contributor> lines, and each value will have its own box
 
 
 
@@ -473,8 +472,8 @@
 
 
 		lvltracker_format_kill		=	"击杀"						;## the string that follows this word will automatically be highlighted as a unique boss
-		lvltracker_format_act		=	"a"												;## abbreviation: used when the guide leads to a location in a different act
-		lvltracker_format_interlude	=	"int "											;## abbreviation
+		lvltracker_format_act		=	"a")
+		lvltracker_format_interlude	=	"int ")
 		lvltracker_format_epilogue	=	"尾声"
 		lvltracker_format_optional	=	"可选："					;## in guides, lines with optional tasks/steps can be toggled dynamically if tagged with this string
 		lvltracker_format_league		=	"赛季开荒："						;## same as above but related to league-start tasks/steps
@@ -489,7 +488,7 @@
 		lvltracker_editor_icons		=	"图标（点击粘贴）："
 		lvltracker_editor_highlight	=	"高亮选中文字："
 		lvltracker_editor_load		=	"加载默认攻略"
-		lvltracker_editor_blocked	=	"（封锁）"									;## there are two different "Halani Gates" areas
+		lvltracker_editor_blocked	=	"（封锁）"									;## there are two different "Halani Gates" areas: the first time you visit, they're blocked off
 		lvltracker_editor_hint		=	"提示/更多信息"
 		lvltracker_editor_quest-name	=	"任务名称"
 		lvltracker_editor_quest-item	=	"任务物品"
@@ -993,7 +992,7 @@
 		m_iteminfo_class		=	"物品类别"
 		m_iteminfo_ilvl		=	"显示物品等级要求"
 		m_iteminfo_highlight	=	"高亮自定义："
-		m_iteminfo_fractured	=	"裂"												;## abbreviation for "fractured", length of 2
+		m_iteminfo_fractured	=	"裂"												;## abbreviation for "fractured" should always have a length of 2 (max 3 if really necessary)
 		m_iteminfo_override		=	"<不期望>覆盖等阶/物品等级颜色"
 		m_iteminfo_rules		=	"全局规则/覆盖："
 		m_iteminfo_rules		=	"武器抗性"						;## as in ele-resistance mods on weapons (which are generally undesired)
