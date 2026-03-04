@@ -243,36 +243,36 @@
 ;## NOTE: it's possible that there's a difference in the ALT-CTRL-C text and the easier-to-find text (e.g. German tooltips display "ss" whenever the ALT-CTRL-C text contains "ß"), so be aware of that if the target language has such variations
 
 ;## these strings are the item-names of certain items (top of the in-game tooltip)
-		items_waystone			=	"Waystone"						;## PoE2 only (whole block)
-		items_soul_core			=	"Soul Core of"
-		items_idol			=	"Idol"
-		items_uncut_gem			=	"Uncut Skill Gem"
-		items_uncut_gem			=	"Uncut Support Gem"
-		items_uncut_gem			=	"Uncut Spirit Gem"
+		items_waystone			=	"路徑石"						;## PoE2 only (whole block)
+		items_soul_core			=	"靈魂核心"
+		items_idol			=	"偶像"
+		items_uncut_gem			=	"未切割技能寶石"
+		items_uncut_gem			=	"未切割輔助寶石"
+		items_uncut_gem			=	"未切割靈魂寶石"
 
 ;## these strings are displayed in the in-game tooltip when hovering over an item
-		items_unidentified		=	"Unidentified"						;## PoE1 and PoE2 (whole block)
-		items_unmodifiable		=	"Unmodifiable"						;## example: memories (atlas item), sanctum relics
-		items_corrupted			=	"Corrupted"
-		items_mirrored			=	"Mirrored"
-		items_unequippable		=	"You cannot use this item. Its stats will be ignored"	;## when you have an item equipped but lack the required attributes
+		items_unidentified		=	"未鑑定"						;## PoE1 and PoE2 (whole block)
+		items_unmodifiable		=	"不可修改"						;## example: memories (atlas item), sanctum relics
+		items_corrupted			=	"已腐化"
+		items_mirrored			=	"鏡像"
+		items_unequippable		=	"你無法使用這個物品，它的屬性將被忽略"	;## when you have an item equipped but lack the required attributes
 
 
-		items_armour			=	"Armour:"						;## PoE1 and PoE2 (whole block)
-		items_evasion			=	"Evasion Rating:"
-		items_energy			=	"Energy Shield:"
-		items_ward			=	"Ward:"
-		items_aps			=	"Attacks per Second:"
-		items_quality			=	"Quality:"
-		items_phys_dmg			=	"Physical Damage:"
+		items_armour			=	"護甲:"						;## PoE1 and PoE2 (whole block)
+		items_evasion			=	"閃避評分:"
+		items_energy			=	"能量護盾:"
+		items_ward			=	"保護:"
+		items_aps			=	"每秒攻擊次數:"
+		items_quality			=	"品質:"
+		items_phys_dmg			=	"物理傷害:"
 		items_dmg			=	"# Damage:"
-		items_chaos_dmg			=	"Chaos Damage:"
+		items_chaos_dmg			=	"混沌傷害:"
 
-		items_ele_dmg			=	"Elemental Damage:"					;## PoE1 only, ele-dmg is displayed differently
+		items_ele_dmg			=	"元素傷害:"					;## PoE1 only, ele-dmg is displayed differently
 
-		items_map_waystonechance	=	"Waystone Drop Chance:"					;## PoE2 only (whole block)
-		items_map_revives		=	"Revives Available:"
-		items_sockets			=	"Sockets:"
+		items_map_waystonechance	=	"路徑石掉落機率:"					;## PoE2 only (whole block)
+		items_map_revives		=	"可復活次數:"
+		items_sockets			=	"插槽:"
 
 
 		items_maptier			=	"Map Tier:"						;## PoE1 only (whole block)
@@ -280,9 +280,9 @@
 		items_mapreward_foil		=	"Foil "							;## also valdo rewards
 
 
-		items_mapquantity		=	"Item Quantity:"					;## PoE1 and PoE2
-		items_maprarity			=	"Item Rarity:"
-		items_mappacksize		=	"Monster Pack Size:"
+		items_mapquantity		=	"物品數量:"					;## PoE1 and PoE2
+		items_maprarity			=	"物品稀有度:"
+		items_mappacksize		=	"怪物群規模:"
 
 
 		items_mapmaps			=	"More Maps:"						;## PoE1 only (whole block), T17 maps received various multipliers in 3.24.1
@@ -290,7 +290,7 @@
 		items_mapcurrency		=	"More Currency:"
 
 
-		items_stack			=	"Stack Size:"						;## PoE1 and PoE2, for stackable items
+		items_stack			=	"堆疊大小:"						;## PoE1 and PoE2, for stackable items
 
 
 		items_mapname			=	"# Map"							;## PoE1 only (whole block), the format of names on map-items, e.g. Frozen River Map (German, for example, uses 'Frozen River'-Map)
@@ -309,13 +309,13 @@
 
 
 ;## these strings are displayed in the in-game tooltip when hovering over an item and holding the hotkey for advanced item descriptions (usually ALT)
-		items_prefix			=	"Prefix Modifier"			;## PoE1 only (whole block), either missing from PoE2 at the moment, or not relevant
+		items_prefix			=	"前綴詞綴"			;## PoE1 only (whole block), either missing from PoE2 at the moment, or not relevant
 		items_prefix_allowed		=	"Prefix Modifier# allowed"		;## implicit that modifies affix-counts (it's important to place the placeholder in a way that matches singular and plural forms)
-		items_suffix			=	"Suffix Modifier"
+		items_suffix			=	"後綴詞綴"
 		items_suffix_allowed		=	"Suffix Modifier# allowed"
 		items_affix			=	""#""					;## in my limited testing, I only found Japanese to use something other than quotation marks (「#」)
-		items_uniquemod			=	"Unique Modifier"
-		items_implicit			=	"Implicit Modifier"
+		items_uniquemod			=	"傳奇詞綴"
+		items_implicit			=	"固定詞綴"
 		items_implicit_exarch		=	"Searing Exarch Implicit Modifier"
 		items_implicit_eater		=	"Eater of Worlds Implicit Modifier"
 		items_implicit_vaal		=	"Corruption Implicit Modifier"
@@ -325,34 +325,34 @@
 		items_implicit_tiers		=	"Exceptional"
 		items_implicit_tiers		=	"Exquisite"
 		items_implicit_tiers		=	"Perfect"
-		items_tier			=	"Tier:"					;## this refers to modifier tiers, usually displayed as "(Tier: X)"
+		items_tier			=	"等階:"					;## this refers to modifier tiers, usually displayed as "(Tier: X)"
 		items_unscalable		=	"Unscalable Value"			;## this is displayed next to certain modifiers, e.g. "Hits cannot be evaded", "Socketed gems are supported by XYZ"
 
 
 ;## these strings are displayed in the item-text when copying advanced item descriptions into clipboard (usually ALT + CTRL + C)
-		items_ilevel			=	"Item Level:"			;## PoE1 and PoE2 (whole block)
-		items_requirements		=	"Requirements:"
-		items_level			=	"Level:"
-		items_str			=	"Strength:"			;## for some reason, unidentified items show full attribute-strings, while ID'd ones show abbreviations
-		items_str			=	"Str:"
-		items_dex			=	"Dexterity:"
-		items_dex			=	"Dex:"
-		items_int			=	"Intelligence:"
-		items_int			=	"Int:"
+		items_ilevel			=	"物品等級:"			;## PoE1 and PoE2 (whole block)
+		items_requirements		=	"需求:"
+		items_level			=	"等級:"
+		items_str			=	"力量:"			;## for some reason, unidentified items show full attribute-strings, while ID'd ones show abbreviations
+		items_str			=	"力:"
+		items_dex			=	"敏捷:"
+		items_dex			=	"敏:"
+		items_int			=	"智慧:"
+		items_int			=	"智:"
 
 
-		items_rarity			=	"Rarity:"			;## PoE1 and PoE2 (whole block), important: every string in the following block has to match the one in the "Rarity: XYZ" line in the clipboard-info
-		items_rare			=	"Rare"				;## do not mix these strings with those from the "Item Class: XYZ" line (class and rarity are sometimes similar but not 100% the same)
-		items_unique			=	"Unique"
-		items_normal			=	"Normal"
-		items_magic			=	"Magic"
-		items_currency			=	"Currency"
-		items_gem			=	"Gem"
+		items_rarity			=	"稀有度:"			;## PoE1 and PoE2 (whole block), important: every string in the following block has to match the one in the "Rarity: XYZ" line in the clipboard-info
+		items_rare			=	"稀有"				;## do not mix these strings with those from the "Item Class: XYZ" line (class and rarity are sometimes similar but not 100% the same)
+		items_unique			=	"傳奇"
+		items_normal			=	"普通"
+		items_magic			=	"魔法"
+		items_currency			=	"貨幣"
+		items_gem			=	"寶石"
 
 
-		items_class			=	"Item Class:"			;## PoE1 and PoE2, important: every string in the following lines has to match the one in the "Item Class: XYZ" line in the clipboard-info
-		items_relics			=	"Relics"			;## Sanctum/Sekhema Relics
-		items_gem			=	"Support Gems"			;## PoE2 only
+		items_class			=	"物品種類:"			;## PoE1 and PoE2, important: every string in the following lines has to match the one in the "Item Class: XYZ" line in the clipboard-info
+		items_relics			=	"遺物"			;## Sanctum/Sekhema Relics
+		items_gem			=	"輔助寶石"			;## PoE2 only
 		items_map fragments		=	"Map Fragments"			;## PoE1 only (rest of block)
 		items_heist brooches		=	"Heist Brooches"
 		items_heist cloaks		=	"Heist Cloaks"
