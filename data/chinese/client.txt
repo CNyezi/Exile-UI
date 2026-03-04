@@ -51,11 +51,11 @@
 ;#####################################################
 
 ;## these are some global system-settings that are dependent on the target language
-		system_font			=	"Fontin SmallCaps"		;## except for Fontin SmallCaps, the specified font-type has to be installed on the system
-		system_fullstop			=	"."				;## the type of punctuation mark the language uses at the end of a sentence (e.g. Japanese uses a different fullstop)
-		system_parenthesis		=	"(#)"				;## the level-up message in the game's client.txt log-file "CHARACTER (CLASS) is now Level X" uses a different parenthesis in Japanese at least
-		system_poedb_lang		=	"us"				;## which language to use on poedb (available: tw, cn, kr, us, jp, ru, po, th, fr, de, es)
-		system_poedb_lang		=	"modifiers"			;## it's the localized name of this section on poeDB: https://poedb.tw/us/Modifiers
+		system_font			=	"Microsoft JhengHei"		;## Traditional Chinese font (Microsoft 正黑體)
+		system_fullstop			=	"。"				;## Traditional Chinese uses ideographic full stop
+		system_parenthesis		=	"（#）"				;## Traditional Chinese uses fullwidth parentheses: e.g. "mimijiang（女巫）目前等級： 5"
+		system_poedb_lang		=	"tw"				;## Traditional Chinese on poedb
+		system_poedb_lang		=	"詞綴"				;## localized name of "Modifiers" section on poedb.tw
 
 
 ;#####################################################
@@ -134,15 +134,15 @@
 ;## replace the English text-strings with the corresponding ones from the target language
 ;## REMINDERS: case-sensitivity, match text in chat-window
 		log_location			=	"0"				;## PoE1 only (missing from PoE2?), certain languages may highlight location-names with characters that need to be removed (e.g. German: 'Hohenpforte', which would require log_location = "'")
-		log_enter			=	"You have entered"		;## PoE1 only (missing from PoE2?), as mentioned earlier, this key may need placeholders depending on the target language
+		log_enter			=	"你已進入：#"			;## PoE1 only (missing from PoE2?), confirmed from Traditional Chinese client log
 
 ;## -----------------------------------------------------------------------------------
-		log_level			=	"is now level"			;## PoE1 and PoE2 (whole block), when your character levels up
+		log_level			=	"目前等級："			;## PoE1 and PoE2 (whole block), confirmed from Traditional Chinese client log: "角色（職業）目前等級： X"
 		log_whois			=	"is a level # in the"		;## this identifies the response of the /whois in-game command, then extracts the number from it
 		log_whois_class			=	"level # in the"		;## similar to above, but specifically isolates a string containing class/ascendancy and the surrounding words, then removes numbers and surrounding words
-		log_slain			=	"has been slain"		;## when your character dies
-		log_suicide			=	"has committed suicide"		;## when your character dies from self-damage
-		log_killed			=	"You have killed # monsters"	;## when activating the "/kills" command
+		log_slain			=	"已陣亡"			;## when your character dies
+		log_suicide			=	"has committed suicide"		;## when your character dies from self-damage (TODO: verify)
+		log_killed			=	"You have killed # monsters"	;## when activating the "/kills" command (TODO: verify)
 
 
 ;## these strings are required to make tracking in the lab-overlay possible on non-English clients
