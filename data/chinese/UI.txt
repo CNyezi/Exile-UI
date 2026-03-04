@@ -136,23 +136,18 @@
 		global_savedentry		=	"已保存条目："
 		global_errorname		=	"输入不能为空"
 		global_errorname		=	"输入无效"
-		global_errorname		=	"仅限字母、空格
-和数字"
+		global_errorname		=	"仅限字母、空格;和数字"
 		global_errorname		=	"名称已被使用"
-		global_errorname		=	"名称不能包含：
-"
+		global_errorname		=	"名称不能包含：;"
 		global_inventory		=	"背包"
 		global_skilltree		=	"天赋树"
 		global_ascendancy		=	"升华树"
 		global_atlas			=	"图集"
 		global_stash			=	"仓库"
-		global_nothing			=	"暂无
-可显示内容"
-		global_imageinvalid		=	"剪贴板中
-未找到图片数据"
+		global_nothing			=	"暂无;可显示内容"
+		global_imageinvalid		=	"剪贴板中;未找到图片数据"
 		global_releasekey		=	"释放按键："
-		global_configwindow		=	"请先关闭
-配置窗口"
+		global_configwindow		=	"请先关闭;配置窗口"
 		global_ultrawide		=	"当前宽高比超出游戏官方支持范围。"
 		global_ultrawide		=	"除非使用了MOD，否则客户端两侧将显示黑边。"
 		global_ultrawide		=	"客户端两侧是否有黑边？"
@@ -362,23 +357,17 @@
 		cheat_dynamic			=	"动态"
 		cheat_manage			=	"管理图片文件："
 		cheat_title			=	"窗口标题："
-		cheat_launch			=	"找不到窗口时，
-改为启动此程序："
+		cheat_launch			=	"找不到窗口时，;改为启动此程序："
 		cheat_exe				=	"选择.exe/快捷方式"
 		cheat_notes			=	"为所选条目输入备注："
 		cheat_calibrate		=	"指定此屏幕检测关联的条目"
-		cheat_entrynotext		=	"条目<#>
-没有文字"
-		cheat_nowindowtitle		=	"速查表
-没有窗口标题"
-		cheat_nowindow			=	"找不到窗口：
-"#""
-		cheat_nofiles			=	"速查表
-没有导入的文件"
+		cheat_entrynotext		=	"条目<#>;没有文字"
+		cheat_nowindowtitle		=	"速查表;没有窗口标题"
+		cheat_nowindow			=	"找不到窗口：;"#""
+		cheat_nofiles			=	"速查表;没有导入的文件"
 		cheat_shorttitle		=	"标题太短"
 		cheat_noexe			=	"请先选择文件"
-		cheat_multifiles		=	"无法将多个文件
-粘贴到索引00"
+		cheat_multifiles		=	"无法将多个文件;粘贴到索引00"
 		cheat_filemissing		=	"文件不存在"
 		cheat_loaderror		=	"无法加载文件："
 		cheat_duplicate		=	"同名速查表已存在，将被覆盖。是否继续？"
@@ -393,8 +382,7 @@
 ;#####################################################
 
 ;## these strings are displayed/required when using the vaal street feature
-		exchange_chaos_div		=	"需要
-兑换比率！"
+		exchange_chaos_div		=	"需要;兑换比率！"
 		exchange_7days			=	"过去7天"
 		async_listheader		=	"当前挂单："
 		async_listheader		=	"已记录购买："
@@ -420,8 +408,7 @@
 		iteminfo_base			=	"基础"				;## as in item-base / crafting-base
 		iteminfo_qual_scaling	=	"品质加成"
 		iteminfo_ruleblock		=	"被全局规则屏蔽"
-		iteminfo_clearfirst		=	"请先清除
-职业高亮设置"
+		iteminfo_clearfirst		=	"请先清除;职业高亮设置"
 		iteminfo_drop_tier		=	"掉落"
 		iteminfo_drop_league	=	"赛季"				;## unique is limited to a specific...
 		iteminfo_drop_boss		=	"Boss"
@@ -453,10 +440,8 @@
 		lvltracker_gearlist			=	"角色(等级)："
 		lvltracker_gearadd			=	"物品已添加"
 		lvltracker_gearadd			=	"物品已存在"
-		lvltracker_gearadd			=	"物品已可
-装备"
-		lvltracker_gearadd			=	"物品
-没有装备要求"
+		lvltracker_gearadd			=	"物品已可;装备"
+		lvltracker_gearadd			=	"物品;没有装备要求"
 		lvltracker_gear5levels		=	"仅显示接下来5个等级"
 		lvltracker_gearready		=	"装备就绪"					;## needs to be as short as possible
 		lvltracker_clearequip		=	"清空：可装备"				;## button to clear a list of gear that is equippable (lvl-requirements are met)
@@ -464,31 +449,23 @@
 
 
 		lvltracker_endreached		=	"无法继续前进"
-		lvltracker_fastforwarderror	=	"当前位置
-不在剩余步骤中"
-		lvltracker_guidemissing		=	"攻略
-尚未加载"
+		lvltracker_fastforwarderror	=	"当前位置;不在剩余步骤中"
+		lvltracker_guidemissing		=	"攻略;尚未加载"
 		lvltracker_importerror		=	""gems only" guides;are not supported"								;## PoE1 only, exile-leveling has a "gems only" option
 		lvltracker_importerror		=	"无效的导入数据"
-		lvltracker_multipaste		=	"部分文件
-不受支持"
-		lvltracker_multipaste		=	"升华树
-不支持多粘贴"
-		lvltracker_multipaste		=	"从#开始的#个条目可能被覆盖。
-是否继续？"	;## the placeholders will be replaced by numbers
-		lvltracker_noimages			=	"找不到
-图片文件"
+		lvltracker_multipaste		=	"部分文件;不受支持"
+		lvltracker_multipaste		=	"升华树;不支持多粘贴"
+		lvltracker_multipaste		=	"从#开始的#个条目可能被覆盖。;是否继续？"	;## the placeholders will be replaced by numbers
+		lvltracker_noimages			=	"找不到;图片文件"
 		lvltracker_timererror		=	"无法继续：本轮已完成"										;## campaign timer can't be resumed because the run has finished
 		lvltracker_timererror		=	"进入第一个区域或城镇以重置"								;## timer can only be reset in specific areas
 		lvltracker_timererror		=	"请先暂停计时器"
-		lvltracker_timererror		=	"被藏身处暂停设置阻止" which blocks manual resuming
+		lvltracker_timererror		=	"被藏身处暂停设置阻止"									;## there's a setting "pause timer in hideouts" which blocks manual resuming
 		lvltracker_timermessage		=	"计时开始"
 		lvltracker_timermessage		=	"计时继续"
 		lvltracker_timermessage		=	"计时暂停"
-		lvltracker_treeerror		=	"天赋树版本
-不兼容"
-		lvltracker_treenone			=	"导入的PoB
-没有可用的天赋树"
+		lvltracker_treeerror		=	"天赋树版本;不兼容"
+		lvltracker_treenone			=	"导入的PoB;没有可用的天赋树"
 		lvltracker_treeascendancy	=	"槽位为空"
 		lvltracker_exp				=	"等级差："													;## stands for level-difference, i.e. character-level - area-level = X
 		lvltracker_recommended		=	"推荐等级："											;## PoE1 only, used to filter out lvl-recommendations in the guide
@@ -496,8 +473,8 @@
 
 
 		lvltracker_format_kill		=	"击杀"						;## the string that follows this word will automatically be highlighted as a unique boss
-		lvltracker_format_act		=	"a")
-		lvltracker_format_interlude	=	"int ")
+		lvltracker_format_act		=	"a"												;## abbreviation: used when the guide leads to a location in a different act
+		lvltracker_format_interlude	=	"int "											;## abbreviation
 		lvltracker_format_epilogue	=	"尾声"
 		lvltracker_format_optional	=	"可选："					;## in guides, lines with optional tasks/steps can be toggled dynamically if tagged with this string
 		lvltracker_format_league		=	"赛季开荒："						;## same as above but related to league-start tasks/steps
@@ -512,7 +489,7 @@
 		lvltracker_editor_icons		=	"图标（点击粘贴）："
 		lvltracker_editor_highlight	=	"高亮选中文字："
 		lvltracker_editor_load		=	"加载默认攻略"
-		lvltracker_editor_blocked	=	"（封锁）" areas: the first time you visit, they're blocked off
+		lvltracker_editor_blocked	=	"（封锁）"									;## there are two different "Halani Gates" areas
 		lvltracker_editor_hint		=	"提示/更多信息"
 		lvltracker_editor_quest-name	=	"任务名称"
 		lvltracker_editor_quest-item	=	"任务物品"
@@ -556,11 +533,9 @@
 
 ;## these strings are displayed/required when using the map-tracker feature
 		maptracker_idle		=	"未追踪"
-		maptracker_kills		=	"按全能键
-启动击杀追踪"
+		maptracker_kills		=	"按全能键;启动击杀追踪"
 		maptracker_kills		=	"击杀数已更新"
-		maptracker_check		=	"请确认
-地图内容！"
+		maptracker_check		=	"请确认;地图内容！"
 		maptracker_save		=	"地图已记录"
 		maptracker_save		=	"地图内无法保存"
 		maptracker_loot		=	"物品已记录"
@@ -572,8 +547,7 @@
 		maptracker_page		=	"页码："
 		maptracker_page		=	"每页条目："		;## i.e. how many entries to show on each page
 		maptracker_header		=	"地图日志查看器"
-		maptracker_dialogue		=	"需在游戏<界面>设置中
-启用<输出对话到聊天>"
+		maptracker_dialogue		=	"需在游戏<界面>设置中;启用<输出对话到聊天>"
 
 ;## these strings are displayed/required at the top of the map-log viewer, using the shortest length possible in order to be more compact
 		maptracker_time		=	"时间"			;## time of day (e.g. 14:20)
@@ -645,14 +619,12 @@
 ;#####################################################
 
 ;## these strings are displayed/required when using the omni-key to access features
-		omnikey_language		=	"全能键不支持
-不受支持的游戏语言"
+		omnikey_language		=	"全能键不支持;不受支持的游戏语言"
 		omnikey_copyfail		=	"剪贴板复制失败"
 		omnikey_escape			=	"（Esc退出）"
 		omnikey_scroll			=	"滚动中..."						;## as in scroll-wheel
 		omnikey_chromes		=	"click into the <total sockets>;field and press space"	;## refers to "total sockets" on the chromatic-calc website
-		omnikey_clustersearch	=	"按Ctrl+F高亮
-所选珠宝类型"
+		omnikey_clustersearch	=	"按Ctrl+F高亮;所选珠宝类型"
 		omnikey_labimport		=	"选择迷宫难度"
 		omnikey_labimport		=	"右键点击布局图片"
 		omnikey_labimport		=	"click <copy image>;optional:"				;## "copy image" when right-clicking a picture in your browser
@@ -682,10 +654,8 @@
 ;#####################################################
 
 ;## these strings are displayed/required when using the sanctum planner
-		sanctum_calibrate		=	"校准
-路径"
-		sanctum_calibrate		=	"校准
-房间"
+		sanctum_calibrate		=	"校准;路径"
+		sanctum_calibrate		=	"校准;房间"
 
 		sanctum_floors			=	"圣所档案馆"
 		sanctum_floors			=	"圣所宝库"
@@ -761,7 +731,7 @@
 		seed_conqueror			=	"征服者："				;## the name that rolls
 		seed_trade			=	"交易检查"				;## button that opens the trade-site
 		seed_keystones			=	"基石："
-		seed_notables			=	"结果要点：" as in after being modified by the jewel
+		seed_notables			=	"结果要点："		;## "resulting" as in after being modified by the jewel
 		seed_notables			=	"插槽周围要点："	;## in range around a jewel socket on the passive tree
 		seed_notables			=	"军团要点："
 		seed_download			=	"下载数据库"
@@ -775,17 +745,14 @@
 ;#####################################################
 
 ;## these strings are displayed/required when using the stash-ninja feature
-		stash_update			=	"正在更新
-poe.ninja价格..."
-		stash_updateerror		=	"更新失败，且没有之前成功的备用数据。
-可能是连接问题，请稍后再试。"
+		stash_update			=	"正在更新;poe.ninja价格..."
+		stash_updateerror		=	"更新失败，且没有之前成功的备用数据。;可能是连接问题，请稍后再试。"
 		stash_updateerror		=	"更新失败"
 		stash_value			=	"市场价值"
 		stash_reminder			=	"请先切换到<备注>"
 		stash_limits			=	"请求频率限制："			;## GGG's APIs have tiered rate limits that control how often you can access them
 		stash_open			=	"在售"
-		stash_nolistings		=	"暂无
-在线挂单"		;## i.e. no-one is selling that item right now
+		stash_nolistings		=	"暂无;在线挂单"		;## i.e. no-one is selling that item right now
 		stash_bulk			=	"批量："
 		stash_stock			=	"库存"				;## as in available stock
 		stash_pricetags		=	"价格标签："
@@ -898,8 +865,7 @@ poe.ninja价格..."
 		m_actdecoder_opacity	=	"锁定时的不透明度："
 		m_actdecoder_zoom		=	"锁定时的缩放："
 		m_actdecoder_simple		=	"仅显示通用布局"
-		m_actdecoder_missing	=	"区域解码：
-无布局"
+		m_actdecoder_missing	=	"区域解码：;无布局"
 
 
 
@@ -988,11 +954,9 @@ poe.ninja价格..."
 ;## these strings are displayed/required in the "hotkeys" section of the settings menu
 		m_hotkeys_settings		=	"游戏内快捷键设置："
 		m_hotkeys_settings		=	"工具快捷键设置："
-		m_hotkeys_descriptions	=	"<显示高级物品描述>
-未绑定到Alt键"		;## in-game setting, usually on ALT
+		m_hotkeys_descriptions	=	"<显示高级物品描述>;未绑定到Alt键"		;## in-game setting, usually on ALT
 		m_hotkeys_descriptions	=	"而是绑定到："
-		m_hotkeys_ckey			=	"C键被用于
-<角色界面>以外的功能"		;## in-game setting, on C by default
+		m_hotkeys_ckey			=	"C键被用于;<角色界面>以外的功能"		;## in-game setting, on C by default
 		m_hotkeys_movekey		=	"移动键："												;## i.e. the key used to move the character, default l-mouse
 		m_hotkeys_omnikey_new	=	"全能键："
 		m_hotkeys_omnikey_new	=	"全能键(通用)："
@@ -1005,10 +969,8 @@ poe.ninja价格..."
 		m_hotkeys_menuwidget	=	"菜单组件(备用键)："
 		m_hotkeys_error		=	"无效的快捷键"
 		m_hotkeys_error		=	"检测到重复的快捷键"
-		m_hotkeys_error		=	"Alt键已重绑定，但
-未设置备用键"				;## if certain tickboxes are ticked, the user has to provide an alternative hotkey
-		m_hotkeys_error		=	"C键已重绑定，但
-全能键2未设置"					;## and these messages will appear if they have not provided that
+		m_hotkeys_error		=	"Alt键已重绑定，但;未设置备用键"				;## if certain tickboxes are ticked, the user has to provide an alternative hotkey
+		m_hotkeys_error		=	"C键已重绑定，但;全能键2未设置"					;## and these messages will appear if they have not provided that
 
 
 
@@ -1031,7 +993,7 @@ poe.ninja价格..."
 		m_iteminfo_class		=	"物品类别"
 		m_iteminfo_ilvl		=	"显示物品等级要求"
 		m_iteminfo_highlight	=	"高亮自定义："
-		m_iteminfo_fractured	=	"裂" should always have a length of 2 (max 3 if really necessary)
+		m_iteminfo_fractured	=	"裂"												;## abbreviation for "fractured", length of 2
 		m_iteminfo_override		=	"<不期望>覆盖等阶/物品等级颜色"
 		m_iteminfo_rules		=	"全局规则/覆盖："
 		m_iteminfo_rules		=	"武器抗性"						;## as in ele-resistance mods on weapons (which are generally undesired)
@@ -1074,8 +1036,7 @@ poe.ninja价格..."
 		m_lvltracker_pob			=	"PoB：中键点击打开截图菜单"
 		m_lvltracker_screencap		=	"截图菜单"
 		m_lvltracker_guide			=	"攻略："
-		m_lvltracker_incompatible	=	"攻略数据不兼容，
-需要更新"
+		m_lvltracker_incompatible	=	"攻略数据不兼容，;需要更新"
 		m_lvltracker_treeclear		=	"删除数据"
 		m_lvltracker_leaguestart		=	"赛季开荒"
 		m_lvltracker_optionals		=	"可选项"			;## refers to optional loot, quests, etc.
@@ -1109,7 +1070,7 @@ poe.ninja价格..."
 		m_maptracker_mapinfo		=	"地图信息数据"						;## option to include data from the map-info feature
 		m_maptracker_notes			=	"备注"								;## option to add notes to map runs
 		m_maptracker_sidearea		=	"支线区域"
-		m_maptracker_rename			=	"标记并重命名Boss地图"-tag to logged map-runs
+		m_maptracker_rename			=	"标记并重命名Boss地图"						;## adds a "boss:"-tag to logged map-runs
 		m_maptracker_character		=	"角色/Build信息"
 		m_maptracker_league			=	"赛季信息"
 		m_maptracker_content		=	"追踪图集机制"
@@ -1182,8 +1143,7 @@ poe.ninja价格..."
 		m_screen_inactive		=	"当前启用的功能无需进一步设置"
 		m_screen_gamescreen		=	"信息面板"									;## refers to the small panel in the top-right corner that shows area-name, server, league, etc.
 		m_screen_close_button	=	"关闭按钮"
-		m_screen_instructions	=	"请阅读
-<信息>按钮上的说明！"
+		m_screen_instructions	=	"请阅读;<信息>按钮上的说明！"
 		m_screen_sanctum		=	"圣所楼层地图"
 		m_screen_sanctum		=	"塞赫玛楼层地图"
 		m_screen_async1		=	"异步交易(出售)"
@@ -1292,5 +1252,4 @@ poe.ninja价格..."
 		m_updater_error4		=	"上次更新因部分文件无法下载而失败。"
 		m_updater_manual		=	"手动更新"
 		m_updater_manual		=	"GitHub下载"
-		m_updater_download		=	"下载失败，请
-使用GitHub按钮"
+		m_updater_download		=	"下载失败，请;使用GitHub按钮"
